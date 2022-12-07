@@ -13,6 +13,13 @@
     <div class="main">
       <div class="emoji mb-6">💣🤯💥</div>
       <button class="button">Boom?</button>
+      <script>
+        document.querySelector('body').addEventListener('click', function() {
+          for(var i = 0; i < 5; i++) {
+          document.querySelector('body').innerHTML += '<article class="message"> lorem ipsum dolor sit amet, consectetur adipisicing elit </article>';
+          }
+        });
+      </script>
     </div>
   </body>
 </html>
